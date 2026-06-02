@@ -1,0 +1,9 @@
+torch
+transformers
+datasets
+paddleocr==2.7.3
+paddlepaddle
+scikit-learn
+numpy<2.0
+Pillow
+tqdm
