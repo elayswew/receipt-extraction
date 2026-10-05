@@ -44,7 +44,7 @@ Key findings:
 
 ```bash
 pip install -r requirements.txt
-python src/main.py
+python main.py
 ```
 
 A GPU is recommended (PaddleOCR + Donut + training). The original experiments ran on
@@ -55,10 +55,10 @@ initialization.
 
 | File | Purpose |
 |------|---------|
-| `src/utils.py` | Amount parsing, numeric conversion, evaluation metrics |
-| `src/features.py` | PaddleOCR candidate extraction + feature engineering |
-| `src/models.py` | MLP ranker, logistic baseline, Donut predictor |
-| `src/main.py` | End-to-end training, evaluation, three-model comparison |
+| `utils.py` | Amount parsing, numeric conversion, evaluation metrics |
+| `features.py` | PaddleOCR candidate extraction + feature engineering |
+| `models.py` | MLP ranker, logistic baseline, Donut predictor |
+| `main.py` | End-to-end training, evaluation, three-model comparison |
 
 ## Limitations & Future Work
 
